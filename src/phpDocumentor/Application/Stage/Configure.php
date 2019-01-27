@@ -71,10 +71,7 @@ final class Configure
                 );
             } else {
                 $this->logger->info(
-                    sprintf(
-                        'Not using any configuration file, relying on application defaults',
-                        $path
-                    )
+                    'Not using any configuration file, relying on application defaults'
                 );
             }
         } else {
